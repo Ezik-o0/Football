@@ -23,18 +23,27 @@ body{
 }
 
 header{
-    padding: 25px 0;
+    margin: 0;
 }
 
 .logo{
     display: flex;
+    padding: 15px 0;
     column-gap: 8px;
+}
+
+.logo a{
+    margin: 0;
 }
 
 .logo p,
 .contacts p,
 .contacts a{
     color: #5a5a5a;
+}
+
+.logo p{
+    margin: 0;
 }
 
 .logo p b{
